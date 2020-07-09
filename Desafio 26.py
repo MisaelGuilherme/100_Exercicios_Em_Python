@@ -1,0 +1,8 @@
+print('====== DESAFIO 26 ======')
+phrase = str(input('Digite uma frase comum: ')).lower()
+search = phrase.count('a')
+search2 = phrase.lfind('a')
+search3 = phrase.rfind('a')
+print('A letra "A" aparece: {} vezes'.format(search))
+print('A letra "A" aparece pela 1ª vez na: {}º posição'.format(search2))
+print('A letra "A" aparece pela última vez na: {}º posição'.format(search3))
